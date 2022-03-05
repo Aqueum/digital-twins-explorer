@@ -19,12 +19,23 @@ urlFragment: digital-twins-explorer
 Azure Digital Twins Explorer is written as a single-page JavaScript application. This repository holds the code for the hosted version of Azure Digital Twins Explorer, which is accessible through the [Azure portal](https://portal.azure.com) and at [explorer.digitaltwins.azure.net](https://explorer.digitaltwins.azure.net). You can also run the application locally as a node.js application.
 
 This README contains information and guidance specific to hosting this codebase locally, including:
-* [Instructions to run the sample locally](#run-azure-digital-twins-explorer-locally)
-* [Instructions to run the sample as a Docker application](#run-azure-digital-twins-explorer-with-docker)
-* [Sign in information for the first run of the sample](#sign-in-on-first-run)
-* [Experimental features](#experimental-features)
-* [Extensibility points](#extensibility-points)
-* [Services](#services)
+- [Azure Digital Twins Explorer](#azure-digital-twins-explorer)
+  - [Requirements](#requirements)
+  - [Run Azure Digital Twins Explorer locally](#run-azure-digital-twins-explorer-locally)
+  - [Run Azure Digital Twins Explorer with Docker](#run-azure-digital-twins-explorer-with-docker)
+  - [Sign in on first run](#sign-in-on-first-run)
+  - [Experimental features](#experimental-features)
+    - [Running in the cloud](#running-in-the-cloud)
+    - [Advanced](#advanced)
+  - [Extensibility points](#extensibility-points)
+    - [Import](#import)
+    - [Export](#export)
+    - [Views](#views)
+    - [View commands](#view-commands)
+    - [Pub/Sub](#pubsub)
+  - [Services](#services)
+    - [Local](#local)
+    - [Cloud](#cloud)
 
 For general documentation on the Azure Digital Twins Explorer features for both the hosted version and local codebase, see the [Azure Digital Twins documentation](https://docs.microsoft.com/azure/digital-twins/overview): 
 * [Concepts: Azure Digital Twins Explorer](https://docs.microsoft.com/azure/digital-twins/concepts-azure-digital-twins-explorer)
